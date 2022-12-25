@@ -129,7 +129,7 @@
         		echo " y lo ha asignado al grupo alu${cut_surname1}${cut_surname2}${cut_name}"
 			echo ""
         		echo " Para crear el usuario y asignar lo a un grupo específico al menos tienes que poner estos parámetros        "
-        		echo " ./Script_UT8PExpr_Regulares_3.sh alta/baja name surname1 surname2 [group]                                             "
+        		echo " ./Script_UT8PExpr_Regulares_3.sh alta/baja name surname1 surname2 [group]                                  "
     		
 		fi
 
