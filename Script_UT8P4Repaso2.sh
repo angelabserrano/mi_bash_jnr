@@ -15,15 +15,18 @@
 		echo "| _____________________________________________________ |"
 
 	else 
-		read -p " Introduce la opción que quieras hacer: " opt
 
-		case $opt in
+		case $1 in
 			1)
-				shutdown -r now
+				reboot now
 			;;
 
 			2)
 				shutdown -r $2
+			;;
+			
+			*)
+				echo "La manera correcta es mediante ./script.sh 1/2 ( n = número de minutos )"
 			;;
 		esac
 
