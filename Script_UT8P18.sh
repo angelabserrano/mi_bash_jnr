@@ -4,8 +4,8 @@
 # registrado en el sistema ( primero dirá si está dado de alta, y a continuación si
 # ha iniciado una sesión )
 
-	user_sys='lastlog | grep $1 | cut -d " " -f1'
-	user_log='last | grep $1 | cut -d " " -f1 | head -1'
+	user_sys=`lastlog | grep $1 | cut -d " " -f1`
+	user_log=`last | grep $1 | cut -d " " -f1 | head -1`
 
 	for i in $user_sys
 
